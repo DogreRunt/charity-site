@@ -2,7 +2,7 @@
 
 <html>
 <head>
-  <title>Simple Grid Layout</title>
+  <title>Bobby Black 5k</title>
   <link href="main.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -12,23 +12,91 @@
   <div class="container">
 
     <header>
-      This is the header area
+      <h1>Bobby Black 5k for Amyloidosis</h1>
     </header>
 
+    <section id="pics">
+      <img src="img/img1.jpg" alt="Mr. Black">
+      <img src="img/img2.jpg" alt="Mr. Black">
+      <img src="img/img3.jpg" alt="Mr. Black">
+      <img src="img/img4.jpg" alt="Mr. Black">
+    </section>
+
     <section id="about">
-      This is where I put info about the charity.
+      <h2>About Amyloidosis</h2>
+      <p>Bobby Black will forever be loved by his community. After his amyloidosis diagnosis, against all odds, he was blessed to have 8 additional years to shine, to smile,
+        to make a difference. Amyloidosis is a rare disease, affecting less than 200,000 Americans with about 4,500 new cases each year.</p>
+      <p>Amyloidosis is caused by a bone marrow disorder. The bone marrow in the center of bones produces cells in the blood system. These cells are the part of the
+        immune system that makes antibodies for fighting infections. Proteins are also produced by the cells in the bone marrow.  In Amyloidosis patients, plasma cells
+        produce an abnormal antibody protein. The misfolded amyloid proteins are deposited in and around tissues, nerves and organs. As the amyloid builds up in an organ,
+        nerve or tissue, it gradually causes damage and affects their function. Each amyloidosis patient has a different pattern of amyloid deposition in their body. It often
+        affects more than one organ. It can last from several years to a lifetime and sadly, it took the life of our beloved teacher Mr. Black.</p>
     </section>
 
     <section id="event">
-      This is where I put info about the event.
+      <h2>About the Event</h2>
+      <p>On Saturday, June 17, 2017 at Conestee Park in Greenville, SC we will honor Bobby's memory with a 5k race. All funds will be donated to the Amyloidosis Foundation.</p>
+      <p>To honor his legacy, his friends and family want to give back by hosting this 5k event to support amyloidosis research. With our donations, we will help others find a
+      cure. Please help raise money for the Amyloidosis Foundation and help us to help others.</p>
+    </section>
+
+    <section id="picture">
+      <img src="img/bobby-black.jpg" alt="Mr. Black">
     </section>
 
     <section id="signup">
-      This is where I put a signup form.
+      <h2>Sign Up Today!</h2>
+      <form action="thanks.html" method="post">
+        <fieldset>
+          <legend>Order Information</legend>
+          T-Shirt Size:
+            <select name="size">
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+            </select><br>
+
+          Quantity:
+            <input type="text" name="quantity"><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Shipping Information</legend>
+          Name:
+            <input type="text" name="name"><br>
+
+          Address:
+            <input type="text" name="address"><br>
+
+          City:
+            <input type="text" name="address"><br>
+
+          State:
+            <input type="text" name="state"><br>
+
+          Zip:
+            <input type="text" name="zip"><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Payment Information</legend>
+          Card Type:
+            <input type="radio" name="card-type" value="visa"> Visa
+            <input type="radio" name="card-type" value="master-card"> Master Card
+            <input type="radio" name="card-type" value="discover"> Discover<br>
+
+          Credit Card Number:
+            <input type="text" name="credit-card-number"><br>
+        </fieldset>
+
+        <input type="submit" value="submit">
+      </form>
     </section>
 
     <footer>
-      This is the footer area
+      <p>Thank you for your support!</p>
+      <p>(This event has already occured. To view the results click <a href="http://georesults.racemine.com/SVE-Timing-East/events/2017/bobby-black-research-for-amyloidosis-5k/results"> here</a>.)
+      <p>By Michaela</p>
     </footer>
 
   </div>
