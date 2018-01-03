@@ -20,6 +20,20 @@ div.container {
   max-width: 900px;
 }
 
+footer {
+  background-color: #872631;
+  color: #ffffff;
+  grid-area: footer;
+  padding: 7px;
+}
+
+img.center {
+    display: inline-block;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 header {
   background-color: #872631;
   color: #ffffff;
@@ -60,6 +74,13 @@ main {
   padding: 7px;
 }
 
+p {
+font-size: 20px;
+line-height: 1.6;
+margin: 20px;
+padding-left: 10px;
+}
+
 section {
   padding: 7px;
 }
@@ -86,13 +107,6 @@ section#picture {
 section#signup {
   background-color: #ffffff;
   grid-area: signup;
-}
-
-footer {
-  background-color: #872631;
-  color: #ffffff;
-  grid-area: footer;
-  padding: 7px;
 }
 
 @media (min-width: 800px) {
