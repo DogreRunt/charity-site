@@ -89,25 +89,36 @@ section {
 
 section#about {
   background-color: #f6c2c6;
+  display: block;
   grid-area: about;
-}
-
-section#pics {
-  background-color: #f6c2c6;
-  grid-area: pics;
 }
 
 section#event {
   background-color: #f6c2c6;
+  display: block;
   grid-area: event;
+}
+
+section#hero {
+  background-image: url("img/marathon.jpg");
+  display: none;
+  grid-area: hero;
+}
+
+section#pics {
+  background-color: #f6c2c6;
+  display: none;
+  grid-area: pics;
 }
 
 section#picture {
   grid-area: picture;
+  display: none;
 }
 
 section#signup {
   background-color: #ffffff;
+  display: block;
   grid-area: signup;
 }
 
@@ -116,9 +127,45 @@ section#signup {
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
       "header header"
+      "hero hero"
       "pics pics"
       "event picture"
       "about signup"
       "footer footer";
+  }
+
+  section#about {
+    background-color: #f6c2c6;
+    display: block;
+    grid-area: about;
+  }
+
+  section#event {
+    background-color: #f6c2c6;
+    display: block;
+    grid-area: event;
+  }
+
+  section#hero {
+    background-image: url("img/marathon.jpg");
+    display: block;
+    grid-area: hero;
+  }
+
+  section#pics {
+    background-color: #f6c2c6;
+    display: block;
+    grid-area: pics;
+  }
+
+  section#picture {
+    display: block;
+    grid-area: picture;
+  }
+
+  section#signup {
+    background-color: #ffffff;
+    display: block;
+    grid-area: signup;
   }
 }
